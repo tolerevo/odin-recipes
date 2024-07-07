@@ -90,6 +90,7 @@ a:hover {
   font-weight: bold;
   color: #010101;
   text-align: left;
+  padding-top: 2rem;
 }
 
 h2,
@@ -119,4 +120,5 @@ p {
 .recipe {
   list-style-type: circle;
   line-height: 1.3;
+  padding: 1rem;
 }

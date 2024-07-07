@@ -73,6 +73,9 @@ main {
 img.description-image {
   width: auto;
   height: 200px;
+  align-self: center;
+  position: relative;
+  left: 40%;
 }
 
 p {
@@ -81,6 +84,7 @@ p {
   line-height: 1.2;
   color: black;
   text-align: justify;
+  margin-left: 20px;
 }
 
 .title {
@@ -98,10 +102,11 @@ p {
 
 }
 
-h3.ingredients {
+h3 {
   font-size: 1.2em;
   text-align: center;
   font-weight: bold;
+
 }
 
 ul.ingredients,
@@ -109,7 +114,8 @@ ul {
   font-size: 1em;
   text-align: left;
   font-weight: lighter;
-  padding-left: 20px;
+  padding: 20px;
+  margin: 0 20px;
 }
 
 ul li {
@@ -120,8 +126,9 @@ ol {
   font-size: 1em;
   text-align: left;
   font-weight: lighter;
-  padding-left: 30px;
+  padding: 30px;
   list-style: decimal;
-  margin-bottom: 50px;
+  margin: 0 20px 50px 20px;
+
 }
 
