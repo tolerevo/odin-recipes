@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-  v2.0 | 20110126
-  License: none (public domain)
+   v2.0 | 20110126
+   License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -59,64 +59,69 @@ body {
   align-content: center;
   justify-content: space-evenly;
   align-items: stretch;
+  height: 100vh;
 }
 
 main {
   background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,253,81,1) 100%);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  display:inline-block;
   align-items: center;
 }
 
-a {
-  text-decoration: none;
-  color: #01040d;
-  cursor: pointer;
-  font-weight: bold;
-
+img.description-image {
+  width: auto;
+  height: 200px;
 }
 
-a:hover {
-  color: #8f2d71;
-  text-decoration: underline;
+p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: black;
+  text-align: justify;
 }
+
 .title {
   font-family:Arial, Helvetica, sans-serif;
   font-size: 1.5em;
   font-weight: bold;
   color: #010101;
-  text-align: left;
+  text-align: center;
 }
 
-h2,
-h3 {
+.description-title {
   font-size: 1.2em;
-  color: #010101;
-  text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+
 }
 
-p {
+h3.ingredients {
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: bold;
+}
+
+ul.ingredients,
+ul {
   font-size: 1em;
+  text-align: left;
   font-weight: lighter;
-
-}
-
-.recipes {
-  display: block;
-  position: relative;
-  margin: 0 auto;
-  width: 100%;
-  list-style: disc;
-  margin-left: 1em;
   padding-left: 20px;
 }
 
-.recipe {
-  list-style-type: circle;
-  line-height: 1.3;
+ul li {
+  list-style: disc;
 }
+
+ol {
+  font-size: 1em;
+  text-align: left;
+  font-weight: lighter;
+  padding-left: 30px;
+  list-style: decimal;
+  margin-bottom: 50px;
+}
+
